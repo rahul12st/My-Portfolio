@@ -37,8 +37,8 @@ function Projects() {
 
 
 
-              ghLink="https://github.com/rahul12st/NFT-Marketplace"
-              demoLink="https://nftbazaar.vercel.app/"
+              ghLink="https://github.com/rahul12st/digi-drive-updated"
+              demoLink="https://digi-drive.vercel.app/"
             />
           </Col> 
 
