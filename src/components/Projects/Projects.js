@@ -41,9 +41,16 @@ function Projects() {
               demoLink="https://digi-drive.vercel.app/"
             />
           </Col> 
-
-
-          
+          <Col md={4} className="project-card">
+          <ProjectCard
+              imgPath={lineagpt}
+              isBlog={false}
+              title="Linea GPT"
+              description="Linea GPT empowered with LineaBot which give you more accurate and powerful results. Integrated with several other features."
+              ghLink="https://github.com/rahul12st/Linea-GPT"
+              demoLink="https://lineagpt.vercel.app/"
+            />
+          </Col> 
         </Row>
       </Container>
     </Container>
