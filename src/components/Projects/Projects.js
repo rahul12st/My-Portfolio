@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import nftmarketplace from "../../Assets/Projects/nftmarketplace.png";
 import digidrive from "../../Assets/Projects/digidrive.png";
+import lineagpt from "../../Assets/Projects/lineagpt.png";
 
 function Projects() {
   return (
