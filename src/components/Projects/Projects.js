@@ -67,6 +67,7 @@ calculation."
               ghLink="https://github.com/rahul12st/Invoicer"
               demoLink="https://yourinvoicer.netlify.app/"
             />
+          </Col>
         </Row>
       </Container>
     </Container>
