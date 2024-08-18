@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import voteList from "../../Assets/Projects/voteList.png";
+import VoteList from "../../Assets/Projects/VoteList.png";
 import Invoicer from "../../Assets/Projects/Invoicer.png";
 import digidrive from "../../Assets/Projects/digidrive.png";
 import AnonCounsel from "../../Assets/Projects/AnonCounsel.png";
@@ -23,7 +23,7 @@ function Projects() {
          
 <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={voteList}
+              imgPath={VoteList}
               isBlog={false}
               title="VoteList"
               description="Developed a decentralized voting application on Ethereum, featuring candidate and voter registration and IPFS for
