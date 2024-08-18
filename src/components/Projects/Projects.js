@@ -2,9 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import nftmarketplace from "../../Assets/Projects/nftmarketplace.png";
+
+import voteList from "../../Assets/Projects/voteList.png";
+import Invoicer from "../../Assets/Projects/Invoicer.png";
 import digidrive from "../../Assets/Projects/digidrive.png";
-import lineagpt from "../../Assets/Projects/lineagpt.png";
+import AnonCounsel from "../../Assets/Projects/AnonCounsel.png";
 
 function Projects() {
   return (
@@ -21,12 +23,13 @@ function Projects() {
          
 <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={nftmarketplace}
+              imgPath={voteList}
               isBlog={false}
-              title="NFT MarketPlace"
-              description="Developed an Ethereum-based NFT Marketplace contract for NFT Bazaar, featuring Buy, Sell, List, and List functions to enhance trading capabilities. Utilized Infura IPFS for robust and efficient storage of NFT metadata. "
-              ghLink="https://github.com/rahul12st/NFT-Marketplace"
-              demoLink="https://nftbazaar.vercel.app/"
+              title="VoteList"
+              description="Developed a decentralized voting application on Ethereum, featuring candidate and voter registration and IPFS for
+secure image storage "
+              ghLink="https://github.com/rahul12st/VoteList"
+              demoLink="https://votelist.vercel.app/"
             />
           </Col> 
           <Col md={4} className="project-card">
@@ -44,14 +47,26 @@ function Projects() {
           </Col> 
           <Col md={4} className="project-card">
           <ProjectCard
-              imgPath={lineagpt}
+              imgPath={AnonCounsel}
               isBlog={false}
-              title="Linea GPT"
-              description="Linea GPT empowered with LineaBot which give you more accurate and powerful results. Integrated with several other features."
-              ghLink="https://github.com/rahul12st/Linea-GPT"
-              demoLink="https://lineagpt.vercel.app/"
+              title="AnonCounsel"
+              description="Developed a mental healthcare advisor application using Next.js, React.js, and OpenAI GPT-3.0, offering
+personalized advice with real-time interaction and a user-friendly interface.
+"
+              ghLink="https://github.com/rahul12st/AnonCounsel"
+              demoLink="https://anoncounsel.vercel.app/"
             />
           </Col> 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Invoicer}
+              isBlog={false}
+              title="Invoicer"
+              description="Developed an invoice management system with features for data capture, item management, and real-time total
+calculation."
+              ghLink="https://github.com/rahul12st/Invoicer"
+              demoLink="https://yourinvoicer.netlify.app/"
+            />
         </Row>
       </Container>
     </Container>
